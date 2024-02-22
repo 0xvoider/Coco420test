@@ -1,0 +1,8 @@
+name: CoCo420Test
+'on': push
+jobs:
+  my-job:
+    runs-on: unbuntu-latest
+    steps:
+      - name: my-step
+        run: echo "CoCo420Test"
